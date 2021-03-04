@@ -1,6 +1,6 @@
 package figuras_geometricas;
 
-public class Figura {
+public abstract class Figura {
     // Atributos
     protected Float area;
     protected Float perimetro;
@@ -22,6 +22,6 @@ public class Figura {
     }
 
         // Otros
-    public void calcularPerimetro() {}
-    public void calcularArea() {}
+    public abstract void calcularPerimetro();
+    public abstract void calcularArea();
 }

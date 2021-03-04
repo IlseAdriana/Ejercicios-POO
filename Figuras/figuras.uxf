@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>245</x><y>40</y><w>210</w><h>150</h></coordinates><panel_attributes>Figura
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>245</x><y>20</y><w>210</w><h>170</h></coordinates><panel_attributes>/Figura/
 Package::figuras_geometricas
 --
 # area: Float
@@ -7,7 +7,10 @@ Package::figuras_geometricas
 + getArea(): Float
 + setArea(Float area): void
 + getPerimetro(): Float
-+ setPerimetro(Float perimetro): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>170</w><h>110</h></coordinates><panel_attributes>Circulo
++ setPerimetro(Float perimetro): void
+/+ calcularArea()/
+/+ calcularPerimetro()/
+ </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>170</w><h>110</h></coordinates><panel_attributes>Circulo
 Package::figuras_geometricas
 --
 - radio: Float
