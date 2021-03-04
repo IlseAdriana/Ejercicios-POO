@@ -1,0 +1,40 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>245</x><y>40</y><w>210</w><h>150</h></coordinates><panel_attributes>Figura
+Package::figuras_geometricas
+--
+# area: Float
+# perimetro: Float
+--
++ getArea(): Float
++ setArea(Float area): void
++ getPerimetro(): Float
++ setPerimetro(Float perimetro): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>170</w><h>110</h></coordinates><panel_attributes>Circulo
+Package::figuras_geometricas
+--
+- radio: Float
+--
++ getRadio(): Float
++ setRadio(Float radio): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>350</y><w>170</w><h>110</h></coordinates><panel_attributes>Cuadrado
+Package::figuras_geometricas
+--
+- lado: Float
+--
++ getLado(): Float
++ setLado(Float radio): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>350</y><w>170</w><h>140</h></coordinates><panel_attributes>Triangulo
+Package::figuras_geometricas
+--
+- base: Float
+- altura: Float
+--
++ getBase(): Float
++ setBase(Float radio): void
++ getAltura(): Float
++ setAltura(Float radio): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>350</y><w>180</w><h>140</h></coordinates><panel_attributes>Pentagono
+Package::figuras_geometricas
+--
+- lado: Float
+- apotema: Float
+--
++ getLado(): Float
++ setLado(Float radio): void
++ getApotema(): Float
++ setApotema(Float radio): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>180</y><w>250</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>230;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>180</y><w>100</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;170</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>180</y><w>260</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;170</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>180</y><w>110</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;170</additional_attributes></element></diagram>
