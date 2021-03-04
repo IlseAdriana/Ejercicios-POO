@@ -1,6 +1,6 @@
 package figuras_geometricas;
 
-public abstract class Figura {
+public abstract class Figura implements Comparable<Figura> {
     // Atributos
     protected Float area;
     protected Float perimetro;
@@ -21,7 +21,12 @@ public abstract class Figura {
         this.perimetro = perimetro;
     }
 
-        // Otros
+      // Otros
     public abstract void calcularPerimetro();
     public abstract void calcularArea();
+   
+    @Override
+    public int compareTo(Figura o) {
+        return this.area.compareTo(o.area);
+    }
 }

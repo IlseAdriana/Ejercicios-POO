@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 import figuras_geometricas.*;
 
@@ -59,7 +60,7 @@ public class Main {
         System.out.println("\n------------------");
 
         // Método burbuja para ordenar elementos con base en el área
-        for (i = 0; i < figuras.length-1; i++) {
+        /*for (i = 0; i < figuras.length-1; i++) {
             for (int j = 0; j < figuras.length-1; j++) {
                 if (figuras[j].getArea() > figuras[j+1].getArea()) {
                     Figura temp = figuras[j];
@@ -67,7 +68,11 @@ public class Main {
                     figuras[j+1] = temp;
                 }
             }
-        }
+        }*/
+
+        /*Arrays.sort ordena el arreglo utilizando el método compareTo() de la interfaz Comparable.
+        El método compareTo() compara las áreas de las figuras.*/
+        Arrays.sort(figuras);
 
         for (Figura figura : figuras) {
             System.out.println(figura);
