@@ -1,0 +1,44 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>250</x><y>10</y><w>240</w><h>320</h></coordinates><panel_attributes>Vehiculo
+Package::vehiculos
+--
+# matricula: String
+# marca: String
+# modelo: String
+# color: String
+# kilometraje: Integer 
+# transmision: String
+--
++ getMatricula(): String
++ setMatricula(String matricula): void
++ getMarca(): String
++ setMarca(String marca): void
++ getModelo(): String
++ setModelo(String modelo): void
++ getColor(): String
++ setColor(String color): void
++ getKilometraje(): Integer
++ setKilometraje(Integer kilometraje): void
++ getTransmision(): String
++ setTransmision(String transmision): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>410</y><w>230</w><h>100</h></coordinates><panel_attributes>Carro
+Package::vehiculos
+--
+- noPuertas: Integer
+--
++ getNoPuertas(): Integer
++ setNoPuertas(Integer noPuertas): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>410</y><w>230</w><h>100</h></coordinates><panel_attributes>Camioneta
+Package::vehiculos
+--
+- noPuertas: Integer
+--
++ getNoPuertas(): Integer
++ setNoPuertas(Integer noPuertas): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>410</y><w>230</w><h>100</h></coordinates><panel_attributes>Motocicleta
+Package::vehiculos
+--
+- noLlantas: Integer
+--
++ getNoLlantas(): Integer
++ setNoPuertas(Integer noPuertas): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>320</y><w>270</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>250;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>320</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>320</y><w>230</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;210;90</additional_attributes></element></diagram>
